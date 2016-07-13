@@ -43,7 +43,7 @@ public class PentagonCrazy {
 			// 11. Turn the robot one more degree
 		r2d2.turn(1);
 		}
- r2d2.changeRobot();
+
 	}
 
 	// Variations:
