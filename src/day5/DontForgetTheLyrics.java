@@ -17,7 +17,7 @@ public class DontForgetTheLyrics {
 	static AudioClip audioClip;
 	public static void main(String[] args) {
 		// 4. Make a pop-up to explain the game.
-		JOptionPane.showMessageDialog(null, "we will play the start of a song, and you have to guess the rest of the lyrics! Only the first letter is capitalized! Good Luck ;)");
+		JOptionPane.showMessageDialog(null, "we will play the start of a song, and you have to guess the title and author of the song!");
 
 		// 5. Use the playSound method to play your song.
 		playSound("skyfall.wav"); 
@@ -29,13 +29,13 @@ public class DontForgetTheLyrics {
 	
 
 		// 7. If they answered correctly, tell them that they were right.
-		if(answer.equals("This is the end hold your breath and count to ten feel the earth move and then hear my heart burst again")){
+		if(answer.equals("Skyfall by Adele")){
 			speak("Correct!!! Good Job!");
 		}
 
 		// 8. Otherwise, tell them they are wrong, and give them the answer.
 		else{
-			speak("WRONG!!! GET it RIGHT!!!");
+			speak("wrong!");
 		}
 		// 9. Record another sound and repeat steps 5-8.
 

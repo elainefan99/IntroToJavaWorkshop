@@ -29,15 +29,18 @@ if(random==1){
 
 		// -- tell the user "No"
 if(random==2){
-	JOptionPane.showMessageDialog(null, "Maybe you should ask Cortana? (She isn't as smart as me though! ;)");
+	JOptionPane.showMessageDialog(null, "Maybe you should ask Cortana?");
 }
 		// 7. If the random number is 2
 
 		// -- tell the user "Maybe you should ask Cortana?"
 if(random==3){
-	JOptionPane.showMessageDialog(null, "Ummmm.... uhhhhh.... I  I I Gotta consult with my Master Google. Uhhhhh BYE!!!");
+	JOptionPane.showMessageDialog(null, "i must consult with Siri.");
 }
 		// 8. If the random number is 3
+if(random==4){
+	
+}
 
 		// -- write your own answer
 
